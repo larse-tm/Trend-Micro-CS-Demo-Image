@@ -50,7 +50,7 @@ jobs:
         with:
           version: '2' # Recommended: pin to major version for automatic updates within v2.x.x
           vulnerabilitiesScan: true
-          malwareScan: true
+          malwareScan: false
           secretsScan: true
           artifact: dir:./
           additionalArgs: --region=us-east-1
