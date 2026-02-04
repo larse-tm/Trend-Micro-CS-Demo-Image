@@ -1,2 +1,22 @@
 requests
 docker-image-py
+mcp>=1.0.0
+model-context-protocol>=0.1.0
+fastmcp>=0.1.0
+transformers>=4.41.0
+safetensors>=0.4.3
+onnx>=1.16.0
+tensorflow>=2.16.0
+nvidia-ml-py>=12.535.0
+tensorrt; platform_system=="Linux"
+tensorrt-cu12; platform_system=="Linux"
+tensorrt-cu12-bindings; platform_system=="Linux"
+jupyter-client>=8.6.0
+jupyter-core>=5.7.0
+jupyter-server>=2.14.0
+jupyterlab>=4.2.0
+jupyterlab-pygments>=0.3.0
+jupyterlab-server>=2.27.0
+pickleshare>=0.7.5
+nim-sdk>=0.1.0
+nimlib>=0.1.0
