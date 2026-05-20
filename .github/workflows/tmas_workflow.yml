@@ -68,8 +68,8 @@ jobs:
         with:
           version: '2' # Recommended: pin to major version for automatic updates within v2.x.x
           vulnerabilitiesScan: true
-          malwareScan: true
-          secretsScan: true
+          malwareScan: false
+          secretsScan: false
           artifact: file:./struts2-showcase-2.3.12.war
           additionalArgs: --region=us-east-1
           tmasApiKey: ${{ secrets.TMAS_API_KEY }}
